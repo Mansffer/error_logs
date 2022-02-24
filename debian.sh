@@ -5,7 +5,6 @@
 
 # make sure we are on the highest kernel, so we can delete all the others ...
 sudo apt update && sudo apt upgrade -y && reboot
-
 # ... reconnect
 sudo apt install lsof
 sudo snap remove --purge  oracle-cloud-agent && sudo snap remove --purge core18 && sudo snap remove --purge snapd && sudo sudo apt -y purge snapd && sudo rm -rf ~/snap /snap /var/cache/snapd
