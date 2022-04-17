@@ -6,8 +6,6 @@ server {
 	#
 	listen 443 ssl default_server;
 	listen [::]:443 ssl default_server;
-	ssl_certificate /etc/letsencrypt/live/node.linybot.com/fullchain.pem;
-        ssl_certificate_key /etc/letsencrypt/live/node.linybot.com/privkey.pem;
 	#
 	# Note: You should disable gzip for SSL traffic.
 	# See: https://bugs.debian.org/773332
